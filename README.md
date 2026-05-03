@@ -44,4 +44,8 @@ Whether you’re a student facing academic fatigue or a professional navigating 
 * .NET SDK (v6.0 or higher)
 * IDE (Visual Studio 2022 or VS Code)
 
-### Installation (Coming Soon)
+## Autonomyst Developers
+* Anyayahan, Jerlyn M.
+* De Castro, Aaron Rovic D.
+* Macatangay, Alwyn Kent M.
+
