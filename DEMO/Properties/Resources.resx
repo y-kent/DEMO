@@ -148,7 +148,7 @@
   <data name="Stretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>woman-standing_1f9cd-200d-2640-fe0f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Surprised" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Surprise" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Walk" type="System.Resources.ResXFileRef, System.Windows.Forms">

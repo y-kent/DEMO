@@ -163,9 +163,9 @@ namespace DEMO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Surprised {
+        internal static System.Drawing.Bitmap Surprise {
             get {
-                object obj = ResourceManager.GetObject("Surprised", resourceCulture);
+                object obj = ResourceManager.GetObject("Surprise", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
