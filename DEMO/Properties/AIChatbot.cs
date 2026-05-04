@@ -13,7 +13,7 @@ namespace DEMO
         // ==================================================================
         // DITO MO I-PASTE ANG YONG OPENROUTER API KEY!
         // ==================================================================
-        private string MY_API_KEY = "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";
+        private string MY_API_KEY = "?";
         // ==================================================================
 
         // ── Fields ────────────────────────────────────────────────────────────
@@ -50,10 +50,23 @@ STRICT RULES:
             model = modelName;
             history = new List<ChatMessage>();
 
-            string keyToUse = MY_API_KEY.Trim();
-            if (keyToUse == "PASTE_YOUR_API_KEY_HERE" && passedKey != null && passedKey != "ILAGAY_ANG_OPENROUTER_API_KEY_DITO")
+            // BAGONG PARAAN: Kukunin ang key mula sa Environment Variable ng inyong computer
+            // Hindi na ito naka-hardcode sa mismong text ng program!
+            string envKey = Environment.GetEnvironmentVariable("OPENROUTER_API_KEY");
+
+            // Smart Key Selector
+            string keyToUse = "";
+            if (!string.IsNullOrWhiteSpace(envKey))
             {
-                keyToUse = passedKey.Trim();
+                keyToUse = envKey.Trim(); // Gagamitin ang nasa computer
+            }
+            else if (!string.IsNullOrWhiteSpace(MY_API_KEY) && MY_API_KEY != "PASTE_YOUR_API_KEY_HERE")
+            {
+                keyToUse = MY_API_KEY.Trim(); // Fallback lang kung nagmatigas kayong ilagay sa code
+            }
+            else if (!string.IsNullOrWhiteSpace(passedKey) && passedKey != "ILAGAY_ANG_OPENROUTER_API_KEY_DITO")
+            {
+                keyToUse = passedKey.Trim(); // Fallback mula sa dashboard
             }
 
             _apiKey = keyToUse;
