@@ -1,5 +1,5 @@
 # 🧠 DEMO: Daily Emotion/Mood Organizer
-*Your digital reset button for emotional clarity.*
+*One Emotion at a Time*
 
 ## 📌 Overview
 **DEMO** is a lightweight, interactive application built to bridge the gap between feeling an emotion and processing it. In a world of high-pressure deadlines and burnout, DEMO acts as a circuit breaker for overthinking, helping users move from "spiraling" to "acting" through structured, mood-based recommendations.
