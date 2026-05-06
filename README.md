@@ -31,7 +31,7 @@ Whether you’re a student facing academic fatigue or a professional navigating 
 
 * **Language:** C#
 * **Framework:** .NET Core / WPF (or WinForms)
-* **Database:** SQL Server / MariaDB
+* **Database:**  MariaDB
 * **Architecture:** Clean Architecture / OOP Principles
 
 ---
