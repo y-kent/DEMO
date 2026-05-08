@@ -55,7 +55,7 @@ namespace DEMO
             isActivityCompleted = isCompleted;
 
             // !! PAALALA: PALITAN ITO NG TOTOO NIYONG API KEY !!
-            chatbot = new AIChatbot("?");
+            chatbot = new AIChatbot("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");
 
             Text = "DEMO - Dashboard";
             Size = new Size(1100, 700);

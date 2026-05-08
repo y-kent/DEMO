@@ -7,10 +7,10 @@ namespace DEMO
     // Ini-implement ang IDatabaseAccess ng kaklase mo
     public class User : IDatabaseAccess
     {
-        public string UserId { get; set; }
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        private string UserId { get; set; }
+        private string FullName { get; set; }
+        private string Email { get; set; }
+        private string Password { get; set; }
 
         // Constructor para sa Sign-Up
         public User(string fullName, string email, string password)

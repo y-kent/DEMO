@@ -97,40 +97,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthForm.cs">
+    <Compile Include="Forms\AuthForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AuthForm.Designer.cs">
+    <Compile Include="Forms\AuthForm.Designer.cs">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BaseActivity.cs" />
-    <Compile Include="EmotionForm.cs">
+    <Compile Include="Models\BaseActivity.cs" />
+    <Compile Include="Forms\EmotionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmotionForm.Designer.cs">
+    <Compile Include="Forms\EmotionForm.Designer.cs">
       <DependentUpon>EmotionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="IDatabaseAccess.cs" />
-    <Compile Include="MariaDbConnector.cs" />
-    <Compile Include="MentalActivity.cs" />
-    <Compile Include="PhysicalActivity.cs" />
+    <Compile Include="Interfaces\IDatabaseAccess.cs" />
+    <Compile Include="Interfaces\MariaDbConnector.cs" />
+    <Compile Include="Models\MentalActivity.cs" />
+    <Compile Include="Models\PhysicalActivity.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AIChatbot.cs" />
+    <Compile Include="Services\AIChatbot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\HistoryViewForm.cs">
+    <Compile Include="Forms\HistoryViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Properties\MusicActivityForm.cs">
+    <Compile Include="Forms\MusicActivityForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Properties\TimerActivityForm.cs">
+    <Compile Include="Forms\TimerActivityForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User.cs" />
-    <EmbeddedResource Include="AuthForm.resx">
+    <Compile Include="Models\User.cs" />
+    <EmbeddedResource Include="Forms\AuthForm.resx">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmotionForm.resx">
+    <EmbeddedResource Include="Forms\EmotionForm.resx">
       <DependentUpon>EmotionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -138,10 +138,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\DashboardForm.cs">
+    <Compile Include="Forms\DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Properties\JournalActivityForm.cs">
+    <Compile Include="Forms\JournalActivityForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
