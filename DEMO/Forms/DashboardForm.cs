@@ -92,8 +92,20 @@ namespace DEMO
             };
             pnlHeader.Controls.Add(lblLogout);
 
-            Label lblProfile = new Label() { Text = "👤", Font = new Font("Segoe UI", 18), AutoSize = true, Location = new Point(1010, 25), Cursor = Cursors.Hand };
-            pnlHeader.Controls.Add(lblProfile);
+            PictureBox pbProfile = new PictureBox()
+            {
+                // Palitan ang "img_DEMO" kung iba ang eksaktong pangalan ng logo niyo sa Resources
+                Image = Properties.Resources.img_DEMO,
+                SizeMode = PictureBoxSizeMode.Zoom, // Para hindi ma-stretch at sakto lang sa box
+                Size = new Size(45, 45), // Pinalaki nang kaunti para mas visible ang logo
+                Location = new Point(1000, 18), // In-adjust ang pwesto para pantay sa header
+                BackColor = Color.Transparent
+            };
+            
+            // Pwede mo rin itong lagyan ng click event kung gusto mong may bumukas na profile page!
+            // pbProfile.Click += (s, e) => { MessageBox.Show("Profile clicked!"); };
+            
+            pnlHeader.Controls.Add(pbProfile);
 
             Panel headerBorder = new Panel() { Dock = DockStyle.Bottom, Height = 1, BackColor = borderColor };
             pnlHeader.Controls.Add(headerBorder);
