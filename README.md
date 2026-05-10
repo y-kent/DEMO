@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-**DEMO** is a lightweight, interactive desktop application built to bridge the gap between *feeling* an emotion and *processing* it. In a world of high-pressure deadlines and burnout, DEMO acts as a circuit breaker for overthinking — helping users move from "spiraling" to "acting" through structured, mood-based recommendations.
+**DEMO** is a lightweight, interactive desktop application built to bridge the gap between *feeling* an emotion and *processing* it. In a world of high-pressure deadlines and burnout, DEMO acts as a circuit breaker for overthinking, helping users move from "spiraling" to "acting" through structured, mood-based recommendations.
 
 Whether you're a student facing academic fatigue or a professional navigating a high-stress environment, DEMO provides the framework to **log, analyze, and regulate your emotional state** before it dictates your decision-making.
 
