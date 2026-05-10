@@ -280,4 +280,16 @@ Built with 💜 as a project by a team who believe emotional wellness deserves t
 * Macatangay, Alwyn Kent M.
 
 
-##Acknowledgement
+## 🙏 Acknowledgement
+
+**Team Autonomyst** extends its heartfelt gratitude to our instructor, **Ms. Fatima Marie Agdon**, for her unwavering commitment to our growth as future software developers throughout this course in **Object-Oriented Programming using C#**.
+
+Her structured approach to teaching core OOP principles — including **encapsulation, inheritance, polymorphism, and abstraction** — gave us a solid foundation that we directly applied in building this **Windows Forms (.NET/C#)** application. Every lecture, code walkthrough, and feedback session pushed us to write cleaner, more maintainable, and more purposeful code.
+
+Beyond technical knowledge, Ms. Agdon cultivated a learning environment where asking questions was encouraged and mistakes were treated as stepping stones. Her patience in walking us through debugging sessions and her insightful critiques of our class designs helped us understand not just *how* to code, but *why* good software architecture matters.
+
+The application presented in this repository is a direct reflection of the lessons she imparted — from structuring classes responsibly, to designing intuitive WinForms interfaces, to applying real-world OOP thinking in a desktop environment.
+
+We are genuinely grateful for her mentorship, and we carry the principles she taught us forward into every project we build.
+
+
