@@ -21,6 +21,7 @@ Whether you're a student facing academic fatigue or a professional navigating a 
 **The Solution:** By asking one simple question *"What is your mood today?"*  DEMO cuts through the noise and provides a deterministic path toward emotional regulation, removing the burden of choice during a crisis.
 
 ---
+## UML Diagram
 ![UML](DEMO/Diagram/UML_Diagram.svg)
 
 
