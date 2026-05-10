@@ -241,8 +241,8 @@ DEMO/
 │   ├── AIChatbot.cs             # OpenRouter AI integration
 │   └── Program.cs               # Entry point
 │
-└── Properties/
-    └── Resources/               # Images and app assets
+└── Properties/                   # Images and app assets
+                  
 ```
 
 ---
