@@ -1,5 +1,5 @@
 # 🧠 DEMO: Daily Emotion/Mood Organizer
-![DEMO Banner](DEMO/properties/DEMO_imgs.png)
+![DEMO Banner](DEMO/Properties/DEMO_imgs.png)
 ### *One Emotion at a Time*
 
 ---
