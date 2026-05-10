@@ -276,7 +276,7 @@ Before running the project, make sure you have:
 
 ## 👥 Team Autonomyst Developers
 Built with 💜 as a project by a team who believe emotional wellness deserves the same engineering attention as any other system.
-* Anyayahan, Jerlyn M.
+* Anyayahan, Jerlyn P.
 * De Castro, Aaron Rovic D.
 * Macatangay, Alwyn Kent M.
 
