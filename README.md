@@ -16,9 +16,9 @@ Whether you're a student facing academic fatigue or a professional navigating a 
 
 ## 🛠️ The Problem & Our Solution
 
-**The Problem:** Emotional fatigue often leads to *"analysis paralysis"* — where the mental energy required to choose a coping mechanism is higher than the energy the user actually has.
+**The Problem:** Emotional fatigue often leads to *"analysis paralysis"* where the mental energy required to choose a coping mechanism is higher than the energy the user actually has.
 
-**The Solution:** By asking one simple question — *"What is your mood today?"* — DEMO cuts through the noise and provides a deterministic path toward emotional regulation, removing the burden of choice during a crisis.
+**The Solution:** By asking one simple question *"What is your mood today?"*  DEMO cuts through the noise and provides a deterministic path toward emotional regulation, removing the burden of choice during a crisis.
 
 ---
 
@@ -26,10 +26,10 @@ Whether you're a student facing academic fatigue or a professional navigating a 
 
 | Feature | The "What" | The "Why" |
 |---|---|---|
-| 🔐 **Secure Vault** | Multi-user authentication with private data persistence. | Emotional data is sensitive — your logs stay yours. |
+| 🔐 **Secure Vault** | Multi-user authentication with private data persistence. | Emotional data is sensitive, your logs stay yours. |
 | 🎭 **Emotion Pulse-Check** | A curated selection of granular emotional states (Happy, Sad, Angry, Anxious, and more). | Moving beyond "Happy/Sad" to identify the root feeling. |
 | 🎯 **Tailored Playbooks** | Dynamic activity suggestions based on your primary and secondary emotion selections. | Turning emotional awareness into immediate, physical action. |
-| 📔 **Journal Activity** | Write your thoughts and attach a photo memory for the day. | Externalizing thoughts helps process them — therapy 101. |
+| 📔 **Journal Activity** | Write your thoughts and attach a photo memory for the day. | Externalizing thoughts helps process them like therapy 101. |
 | 🎧 **Music Activity** | Opens a curated Spotify playlist matched to your current mood. | Music is a proven emotional regulation tool. |
 | ⏱️ **Timer Activity** | A built-in stopwatch for timed physical activities (stretching, walking, breathing). | Movement is the fastest way to shift emotional state. |
 | 📈 **Mood Insights** | A chronological calendar history of your emotional journey with activity details. | Identifying patterns helps predict and prevent burnout. |
@@ -45,7 +45,7 @@ Whether you're a student facing academic fatigue or a professional navigating a 
 | Database | MariaDB (via XAMPP) |
 | DB Connector | MySql.Data (MySqlConnector) |
 | AI Integration | OpenRouter API (free tier) |
-| Architecture | OOP — Abstract classes, Interfaces, Inheritance |
+| Architecture | OOP — Abstract classes, Interfaces, Inheritance, Encapsulation |
 
 ---
 
@@ -153,7 +153,7 @@ private string MY_API_KEY = "sk-or-v1-paste-your-key-here";
 - After logging in, you'll land on the **Emotion Screen**.
 - **Choose your primary emotion** from the options displayed (e.g., Happy, Sad, Angry, Anxious).
 - **Choose your secondary emotion** to get more specific (e.g., if primary is Sad → secondary could be Lonely, Hopeless, Disappointed).
-- **Choose an activity** from the recommended list — DEMO tailors this list based on your emotion combination.
+- **Choose an activity** from the recommended list, DEMO tailors this list based on your emotion combination.
 - Click **Proceed** to move to your dashboard.
 
 > 💡 If you've already logged your emotion today, DEMO will show your previous selection and let you continue where you left off.
@@ -164,7 +164,7 @@ private string MY_API_KEY = "sk-or-v1-paste-your-key-here";
 
 The **Dashboard** is your home base for the day. It shows:
 - Your selected emotion and activity for the day.
-- A calendar view of your past mood entries — click any day to see its full history.
+- A calendar view of your past mood entries and click any day to see its full history.
 - The **AI Chat panel** on the side where you can talk through your feelings.
 - A **View Activity** button to open and complete your recommended activity.
 
@@ -188,7 +188,7 @@ Depending on your emotion selection, you'll open one of three activity forms:
 - Click **▶ START** to begin the stopwatch.
 - Pause and resume as needed.
 - Add notes or a photo of your activity.
-- Click **MARK AS DONE ✓** — the app records your exact start time, end time, and duration.
+- Click **MARK AS DONE ✓** , the app records your exact start time, end time, and duration.
 
 ---
 
@@ -207,7 +207,7 @@ Depending on your emotion selection, you'll open one of three activity forms:
 ### 6. 🤖 Talk to the AI Consultant
 
 - On the Dashboard, find the **AI Chat panel**.
-- Type anything you're feeling — the AI responds conversationally, like a supportive friend.
+- Type anything you're feeling, the AI responds conversationally, like a supportive friend.
 - It will ask follow-up questions to help you process your emotions further.
 - Click **Send** or press **Enter** to chat.
 
